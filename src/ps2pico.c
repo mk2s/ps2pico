@@ -147,6 +147,9 @@ void main() {
   #ifdef XTALT
     printf("XT ps2x2pico version\n");
   #endif
+  #ifdef OTRONAPHY
+    printf("Otrona version\n");
+  #endif
   
   while(1) {
     tuh_task();
